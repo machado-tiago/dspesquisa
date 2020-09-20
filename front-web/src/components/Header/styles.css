@@ -19,6 +19,10 @@
     color: #FFF;
   }
   
+  .logo{
+    margin-right: 10px;
+  }
+  
   @media (max-width: 850px) {
     .main-header {
       justify-content: center;

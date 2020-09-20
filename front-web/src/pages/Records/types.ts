@@ -1,4 +1,3 @@
-
 export type RecordsResponse ={
     content: RecordItem[];
     totalPages: number;

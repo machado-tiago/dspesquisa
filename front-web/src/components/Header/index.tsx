@@ -1,10 +1,11 @@
+
 import React from 'react';
 import './styles.css'
 import {ReactComponent as Logo} from '../../assets/logo.svg'
 import {Link} from 'react-router-dom'
 const Header= () => (
     <header className="main-header">
-        <Logo/>
+        <Logo className="logo"/>
         <Link to="/">
         <div>
             <span className="logo-text-1"> Big Game</span>

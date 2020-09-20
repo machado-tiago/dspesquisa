@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import './styles.css';
 import axios from 'axios';
-import { RecordsResponse } from './types';
-import {formatDate} from './helpers'
-import Pagination from './Pagination/index';
+import React, { useEffect, useState } from 'react';
 import Filters from '../../components/Filters';
-import {Link} from 'react-router-dom';
+import { formatDate } from './helpers';
+import Pagination from './Pagination/index';
+import './styles.css';
+import { RecordsResponse } from './types';
 
 const BASE_URL = 'https://dspesquisa-tiago.herokuapp.com';
 

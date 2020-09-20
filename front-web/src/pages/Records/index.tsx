@@ -7,7 +7,7 @@ import Pagination from './Pagination/index';
 import Filters from '../../components/Filters';
 import {Link} from 'react-router-dom';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://dspesquisa-tiago.herokuapp.com';
 
 const Records = () => {
     const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
